@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+:root{
+    --primary-font: "Kanit", serif;
+}
+
+@keyframes zoom_2 {
+    0%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.faixa-inicial{
+    padding: 10px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa-inicial img{
+    cursor: pointer;    
+    margin-right: 10px;
+}
+
+#bem-vindo{
+    color: rgb(0, 150, 12);
+    font-family: var(--primary-font);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+#bem-vindo .cabecalho{
+    padding: 10px;
+}
+
+#bem-vindo a{
+    font-size: 22px;
+    padding: 10px;
+    color: rgb(0, 150, 12);
+    text-decoration: none;
+}
+
+#bem-vindo a:hover{
+    color: rgb(38, 255, 38);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000;
+    font-family: var(--primary-font);
+}
+
+.content_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(191, 240, 159);
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px #111;
+}
+
+.content_one:hover{
+    color: #fff;
+    background-color: rgb(21, 75, 8);
+    transition: 1s;
+}
+

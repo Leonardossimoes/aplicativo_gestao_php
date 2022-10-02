@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+:root{
+    --primary-font: "Kanit", serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa-inicial{
+    width: 100%;
+    padding: 10px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa-inicial img{
+    cursor: pointer;    
+    margin-right: 10px;
+}
+
+.perfil{
+    width: 500px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--primary-font);
+    color: black;
+}
+
+.fa-solid{
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+
+}
+
+.voltar a{
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: #0f9b0f;
+    
+}
+
+msgRegAlertError{
+    font-family: var(--primary-font);
+    color: #000;
+}
